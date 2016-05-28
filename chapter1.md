@@ -24,16 +24,17 @@ Le principe est le principe fondamental dans la prise de décision médicale. Ce
     Cette idée de bienfaisance est de tenter de faire bien. a
 
 
-    ### Non malfaisance : 
+### Non malfaisance : 
 
     L'idée de non malfaisance est, elle en lien, avec le fait de ne pas faire mal. Il est dans les soins médicaux d'avoir à faire des examens, ou à utiliser des traitements invasif, qui mettent à mal le corps (chimio thérapie, par exemple). Ce principe est directement en lien avec la bienfaisance. Il est parfois difficile d'articuler les deux, et il s'agit alors de faire un arbitrage sur un potentiel mieux liés au mal subit. 
 
 
-    ### Justice / Equité : 
+### Justice / Equité : 
 
     Ce topic conserne le fait de ne pas faire de discrimination entre les individus. Il est liés au fait qu'un individu est à l'interieur d'une communauté potentiellement inégalitaire, mais que dans la prise en charge celui-ci doit être traité avec ses spécifitié. 
 
-    ## La donnée : 
+## La donnée : 
+
 
 
 
