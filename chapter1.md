@@ -21,19 +21,29 @@ Le principe est le principe fondamental dans la prise de décision médicale. Ce
 
 ### Bienfaisance : 
 
-    Cette idée de bienfaisance est de tenter de faire bien. a
+Cette idée de bienfaisance est de tenter de faire bien. a
 
 
 ### Non malfaisance : 
 
-    L'idée de non malfaisance est, elle en lien, avec le fait de ne pas faire mal. Il est dans les soins médicaux d'avoir à faire des examens, ou à utiliser des traitements invasif, qui mettent à mal le corps (chimio thérapie, par exemple). Ce principe est directement en lien avec la bienfaisance. Il est parfois difficile d'articuler les deux, et il s'agit alors de faire un arbitrage sur un potentiel mieux liés au mal subit. 
+L'idée de non malfaisance est, elle en lien, avec le fait de ne pas faire mal. Il est dans les soins médicaux d'avoir à faire des examens, ou à utiliser des traitements invasif, qui mettent à mal le corps (chimio thérapie, par exemple). Ce principe est directement en lien avec la bienfaisance. Il est parfois difficile d'articuler les deux, et il s'agit alors de faire un arbitrage sur un potentiel mieux liés au mal subit. 
 
 
 ### Justice / Equité : 
 
-    Ce topic conserne le fait de ne pas faire de discrimination entre les individus. Il est liés au fait qu'un individu est à l'interieur d'une communauté potentiellement inégalitaire, mais que dans la prise en charge celui-ci doit être traité avec ses spécifitié. 
+Ce topic conserne le fait de ne pas faire de discrimination entre les individus. Il est liés au fait qu'un individu est à l'interieur d'une communauté potentiellement inégalitaire, mais que dans la prise en charge celui-ci doit être traité avec ses spécifitié. 
 
 ## La donnée : 
+Une donnée est une description élémentaire d’une réalité. C’est par exemple une observation ou une mesure.
+
+La donnée est dépourvue de tout raisonnement, supposition, constatation, probabilité. Étant indiscutable ou indiscutée, elle sert de base à une recherche, à un examen quelconque.
+
+Les données sont généralement le résultat d'un travail préalable sur les données brutes qui permettra de leur donner un sens et ainsi, d'obtenir une information. Les données sont un ensemble de valeurs mesurables en fonction d'un étalon de référence. La référence utilisée et la manière de traiter les données (brutes) sont autant d’interprétations implicites qui peuvent biaiser l’interprétation finale (limites des sondages).
+
+Par exemple, des données dans un graphique permettront à un être humain d'y associer un sens (une interprétation) et ainsi créer une nouvelle information.
+
+
+
 
 
 
