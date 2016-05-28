@@ -44,20 +44,31 @@
 %\usepackage{eurosym}
 
 
+\usepackage{glossaries}
+\makeglossaries
+
+
 
 \title{Ethique de la donnée.}
 \date{\today}
+\author{C. Bibard, E. Nahuet, J-C. Burlot, K. Goarand, P. Allee}
 
 
 
 \begin{document}
 \maketitle
+\tableofcontents
+
+
+
+
+
 \section{Introduction (pitch 1)}
 
 
 \subsection{Ethique, morale, déontologie : }
 
-Il existe une confusion entre ethique, morale, déontologie. La morale est liée à la notion de bien/mal. Celle-ci est liée à une échelle de valeurs liés à une culture, une religion. Elle est plutôt de l'ordre de l'individuel. 
+Il existe une confusion entre ethique morale, déontologie. La morale est liée à la notion de bien/mal. Celle-ci est liée à une échelle de valeurs liés à une culture, une religion. Elle est plutôt de l'ordre de l'individuel. 
 
 La déontologie, quand à elle est liée plutôt à des valeurs concernant un corps de métiers. C'est un ensemble de régles généralement corrélée avec la loi. 
 
@@ -96,8 +107,38 @@ Les données sont généralement le résultat d'un travail préalable sur les do
 
 Par exemple, des données dans un graphique permettront à un être humain d'y associer un sens (une interprétation) et ainsi créer une nouvelle information.
 
-\section{Etude de cas : }
+\section{Transposition vers l'éthique de la donnée : }
+Nous ne proposerons pas ici, une tranposition point à point de ces principes. C'est principe ne sont ni plus ni moins qu'une méthodologie de traitement éthique de ces questions. 
+Nous proposons ici, plus proche du monde numérique, une éthique hacker. L'éthique hacker dans un premier temps décrite et introduite par Steven LEVY puis théorisé plus largement par Peka HIMANEN. Considérons, notre présence dans ce hackathon de mettre en pratique nos intuitions sur ce qu'est le hack, nous proposons pour l'éthique de la donnée de reprendre :
+	\begin{description}
+		\item [L'opensource : ] pour qu'un logiciel soit considéré open source il faut qu'il remplice dix critères :
+		\begin{itemize}
+			\item  La redistribution doit être libre
+			\item Le programme doit être distribué avec le code source, sinon il doit y avoir un moyen très médiatisé pour l’obtenir sans frais
+			\item La licence doit autoriser les modifications et les œuvres dérivées, et doit leur permettre d'être distribuées sous les mêmes termes que la licence du logiciel original
+			\item Pour maintenir l’intégrité du code source de l'auteur, la licence peut exiger que les œuvres dérivées portent un nom ou un numéro de version différent de ceux du logiciel original
+			\item La licence ne doit discriminer aucune personne ou groupe de personnes
+			\item La licence ne doit pas défendre d'utiliser le programme dans un domaine d'activité spécifique
+			\item Les droits attachés au programme doivent s'appliquer à tous ceux à qui il est redistribué, sans obligation pour ces parties d'obtenir une licence supplémentaire
+			\item La licence ne doit pas être spécifique à un produit
+			\item La licence ne doit pas imposer des restrictions sur d'autres logiciels distribués avec le logiciel sous licence. Par exemple, la licence ne doit pas exiger que tous les autres programmes distribués sur le même support doivent être des logiciels open source 
+			\item La licence doit être technologiquement neutre
+		\end{itemize}	
+Selon Richard Stallman, l'un des premiers penseur du logiciel libre : \textit{l'open source est une méthodologie de développement; le logiciel libre est un mouvement social}
+% http://www.developpez.com/actu/87401/Logiciel-libre-et-open-source-les-deux-concepts-sont-parfois-utilises-de-maniere-interchangeable-mais-quelle-est-la-difference/
+		\item [La sécurisation des données : ] Les paquets transmit sur le réseau doivent être signés et chiffrés de bout en bout. Cela afin de garantir la confidentialité et l'intégrité de l'information transmise. 
+		\item [Permissionless : ]
+		\item [L'échange de pair à pairs : ]
+	\end{description}
 
+\section{Etude de cas : Le cas Volswagen (pitch 2)}
+Le 20 septembre dernier, le scandal Volkswagen, éclate. Les capteurs posées sur la voiture pour mesurer le taux d'émission de CO2 a été réglé de manière à donner des valeurs inférieures à celles émisent réelement. En dehors d'une véritable fraude, c'est aussi un cas pratique de l'intêret de l'opensource dans ce genre de système, système prévu pour participer à l'effort sur la diminution de la polution, ayant un véritable intêret collectif. 
+
+Peu après la sortie de ce scandal, l'Electronic Frontier Foundation\footnote{Fondation américaine qui défend les droits des citoyens dans le monde numérique}, prend position sur ce scandal en affirmant qu'avec un logiciel Open Source, il n'y aurait pas eu besoin, de la prise de risque d'un lanceur d'alerte, et que la communauté ayant possibilité d'auditer le code source aurait pu faire remonter la triche.
+
+D'autre part, il est probable que l'obligation de rendre public les codes sources, aurait empêché l'entreprise de tricher, l'obligation d'ouverture du code aurait, dans ce cas là, été vertueux. 
+\newpage
+\section*{Glossaire}
 
 \end{document}
 
