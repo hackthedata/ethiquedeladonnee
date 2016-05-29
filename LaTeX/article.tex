@@ -44,26 +44,28 @@
 %\usepackage{eurosym}
 
 
-\usepackage{glossaries}
-\makeglossaries
+%\usepackage{glossaries}
+%\makeglossaries
 
 
 
 \title{Ethique de la donnée.}
 \date{\today}
-\author{C. Bibard, E. Nahuet, J-C. Burlot, K. Goarand, P. Allee}
+\author{C. Bibard, E. Nahuet, J-C. Bournot, K. Goarand, P. Allee}
 
 
 
 \begin{document}
 \maketitle
-\tableofcontents
+%\tableofcontents
 
-
-
+\begin{abstract}
+Plop
+\end{abstract}
 
 
 \section{Introduction (pitch 1)}
+
 
 
 \subsection{Ethique, morale, déontologie : }
@@ -76,7 +78,7 @@ La déontologie, quand à elle est liée plutôt à des valeurs concernant un co
 
 L'éthique est une tentative de faire mieux. La question de l'éthique c'est surtout posée dans le domaine médicale. Celui-ci a la particularité de toucher le domaine de santé et de poser des questions de vie ou de mort et appel bien souvent une réponse rapide. 
 
-Dans cette perspective une discution est née entre Tom Beauchamp et Jame Childress, ceci étant de confession réligieuse différente les discutions on donnée lieux à des débats consigné dans le livre *Les principes de l'éthique biomédicale* qui évolue est en est à sa 5e version (unique traduction française).
+Dans cette perspective une discution est née entre Tom Beauchamp et Jame Childress, ceci étant de confession réligieuse différente les discutions on donnée lieux à des débats consigné dans le livre \textit{Les principes de l'éthique biomédicale} qui évolue est en est à sa 5e version (unique traduction française).
 Ils créent une éthique principiste (correspondant à un certain nombre de principes), le principe d'autonomie, le principe de bienfaisance, le principe de non malfaisance.
 
 \subsubsection{Autonomie : }
@@ -124,11 +126,13 @@ Nous proposons ici, plus proche du monde numérique, une éthique hacker. L'éth
 			\item La licence ne doit pas imposer des restrictions sur d'autres logiciels distribués avec le logiciel sous licence. Par exemple, la licence ne doit pas exiger que tous les autres programmes distribués sur le même support doivent être des logiciels open source 
 			\item La licence doit être technologiquement neutre
 		\end{itemize}	
-Selon Richard Stallman, l'un des premiers penseur du logiciel libre : \textit{l'open source est une méthodologie de développement; le logiciel libre est un mouvement social}
+Selon Richard Stallman, l'un des premiers penseur du logiciel libre : \textit{l'open source est une méthodologie de développement; le logiciel libre est un mouvement social}. 
 % http://www.developpez.com/actu/87401/Logiciel-libre-et-open-source-les-deux-concepts-sont-parfois-utilises-de-maniere-interchangeable-mais-quelle-est-la-difference/
+
+L'opensource permet de se passer du tiers de confiance, si chacun·ne peut consulter librement le code, si celui-ci n'a plus de secret, l'utilisateur n'a plus besoin de faire confiance.  
 		\item [La sécurisation des données : ] Les paquets transmit sur le réseau doivent être signés et chiffrés de bout en bout. Cela afin de garantir la confidentialité et l'intégrité de l'information transmise. 
-		\item [Permissionless : ]
-		\item [L'échange de pair à pairs : ]
+		\item [Permissionless : ] C'est la possibilité donnée à l'utilisateur de collecter, reccueillir exploiter ses données sans demander la permission à un tiers. 
+		\item [P2P: ] Littéralement le pair à pair. L'échange de pair à pair des informations sans passer par un tiers, permet de se passer de la question du tiers de confiance. Les échanges sont reccueilli sur un annuaire. C'est le principe du blockchain.
 	\end{description}
 
 \section{Etude de cas : Le cas Volswagen (pitch 2)}
@@ -137,6 +141,23 @@ Le 20 septembre dernier, le scandal Volkswagen, éclate. Les capteurs posées su
 Peu après la sortie de ce scandal, l'Electronic Frontier Foundation\footnote{Fondation américaine qui défend les droits des citoyens dans le monde numérique}, prend position sur ce scandal en affirmant qu'avec un logiciel Open Source, il n'y aurait pas eu besoin, de la prise de risque d'un lanceur d'alerte, et que la communauté ayant possibilité d'auditer le code source aurait pu faire remonter la triche.
 
 D'autre part, il est probable que l'obligation de rendre public les codes sources, aurait empêché l'entreprise de tricher, l'obligation d'ouverture du code aurait, dans ce cas là, été vertueux. 
+
+\section{Etudes cas : Fraude }
+En 2014 la cour des comptes déplore que Pôle Emploi n'a pas suffisament d'information pour évaluer l'ampleur de la fraude. Aujourd'hui pôle emploi test dans plusieurs régions française, la possibilité de traquer les demandeur d'emploi en scannant les ip afin de connaitre d'où se connecte le demandeur d'emploi. 
+En mai 2015 un projet de loi est déposé par le gouvernement sur le projet de loi relatif au dialogue social, comprennant la possibilité donnée à pôle emploi d'avoir accès aux relevé banquaires, relevé téléphonique,et donnée de géolocalisation, détenues par certaines entreprises privée. Finalement celui-ci à retiré l'ammendement concernant le relevé banquaire. (le tout sans controle judiciaire). 
+%http://www.numerama.com/magazine/33203-pole-emploi-pourra-fouiller-vos-comptes-bancaires-entre-autres.html
+\subsection{Comment s'en sortir ? }
+Les entreprises privées sont coincée entre leur client, qui souhaiterai plus d'intimité et être moins \textit{"fliquées"} et la loi qui impose au opérateur une transmission d'information, plus fine. 
+
+Le cas gandi est un exemple interessant car, au moment ou sort le projet de loi renseignement, visant à installer des boites noir chez les opérateur du réseau informatique, afin de reccueillir toute les informations qui passent sur le réseau. Face à se projet d'obligation légale, gandi monte au créneau et s'oppose frontalement à la loi. Cette opération de communication a marqué les esprits, et à consolider la confiance que les consommateur avait dans leur hébergement. 
+
+Il s'agirait alors pour les entreprises privée d'être vigilante sur les projets et propositions de loi, de communiquer sur leur opposition et d'activer le lobbying contre ces loi visant à restreindre un certain nombre de liberté de leur utilisateur. 
+
+
+
+
+\newpage 
+\section*{Webographie :}
 \newpage
 \section*{Glossaire}
 
