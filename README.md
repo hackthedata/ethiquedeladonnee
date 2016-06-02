@@ -5,7 +5,7 @@ Hackathon 27 - 29 Mai 2016 à la:matrice (Saint-Brieuc)
 
 CC BY-NC 3.0 FR - Ethique de la donnée by Team CHATSPAR 
 
-[Ethique de la donnée](https://github.com/hackthedata/ethiquedeladonnee/blob/master/LaTeX/final.tex)
+[Ethique de la donnée (pdf)](https://github.com/hackthedata/ethiquedeladonnee/blob/master/LaTeX/final.tex)
 
 ### Basé sur impress.js
 http://impress.github.io/impress.js/ by [@bartaz](http://twitter.com/bartaz)
